@@ -59,10 +59,10 @@ git clone https://github.com/iHanzyy/db-siswa.git
 
 ## 🧐 FAQ
 
-**❓ Kenapa pakai **``** di beberapa query?**\
+**❓ Kenapa pakai **`.`** di beberapa query?**\
 ➡ Karena kita melakukan `JOIN` dengan tabel lain (`peminjaman`), jadi harus spesifik pakai `siswa.*` supaya SQL tahu kita ambil data dari tabel `siswa`.
 
-**❓ Kenapa pakai **``**?**\
+**❓ Kenapa pakai **`IFNULL()`**?**\
 ➡ Kalau ada siswa yang belum pernah pinjam buku, `peminjaman.id_peminjaman` bakal NULL. Kita pakai `IFNULL()` supaya NULL itu diubah jadi "Belum Meminjam", biar lebih gampang dipahami.
 
 ---
