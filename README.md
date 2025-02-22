@@ -66,14 +66,3 @@ git clone https://github.com/iHanzyy/db-siswa.git
 ➡ Kalau ada siswa yang belum pernah pinjam buku, `peminjaman.id_peminjaman` bakal NULL. Kita pakai `IFNULL()` supaya NULL itu diubah jadi "Belum Meminjam", biar lebih gampang dipahami.
 
 ---
-
-## 🚀 Kontribusi
-
-Kalau ada yang mau ditambahin atau diperbaiki, silakan fork repository ini dan ajukan **pull request**.
-
----
-
-## 📢 Lisensi
-
-Project ini bebas digunakan dan dikembangkan lebih lanjut. Happy coding! 💻✨
-
